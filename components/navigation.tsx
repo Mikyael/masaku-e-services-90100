@@ -96,12 +96,14 @@ export function Navigation() {
                 >
                   Register
                 </Link>
-                <Link
-                  href="/admin/login"
+                <a
+                  href="https://admin-masaku-portal.vercel.app/admin/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors bg-red-600 hover:bg-red-700"
                 >
                   Admin Login
-                </Link>
+                </a>
               </>
             )}
           </div>
@@ -182,13 +184,15 @@ export function Navigation() {
                     >
                       Register
                     </Link>
-                    <Link
-                      href="/admin/login"
+                    <a
+                      href="https://admin-masaku-portal.vercel.app/admin/login"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-700 transition-colors bg-red-600"
                       onClick={() => setIsOpen(false)}
                     >
                       Admin Login
-                    </Link>
+                    </a>
                   </>
                 )}
               </div>
